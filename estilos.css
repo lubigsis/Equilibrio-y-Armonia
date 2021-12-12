@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #020006;
+    font-family: 'Mali', cursive;
+}
+
+header .logotipo{
+    font-family: 'Merienda', cursive;
+    color: white;
+    font-size: 40px;
+}
+
+.contenedor{
+    width: 90%;
+    margin: auto;
+}
+
+header{
+    padding: 20px 0;
+}
+
+header .contenedor{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header nav a{
+    color: white;
+    text-decoration: none;
+    margin-right: 35px;
+}
+
+header nav a:hover{
+    color: rgb(119, 83, 136);
+}
+
+.principal{
+    font-size: 16px;
+    min-height: 40.62em;
+    color: rgba(244, 240, 247, 0.952);
+    background: url(portada.jpg);
+    background-position: center center;
+    background-size: cover;
+    margin-bottom: 3.12em;
+    display: flex;
+    align-items: end;
+   
+}
+
+.principal .contenedor{
+    margin: 0 auto;
+    margin-bottom: 1em;
+    margin-left: 29.375em;
+}
+
+.principal .titulo{
+    margin-bottom: 0.625em;
+}
