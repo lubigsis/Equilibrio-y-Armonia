@@ -5,60 +5,295 @@
 }
 
 body{
-    background-color: #020006;
+    background-color: #e1dde9;
     font-family: 'Mali', cursive;
 }
 
-header .logotipo{
-    font-family: 'Merienda', cursive;
-    color: white;
-    font-size: 40px;
+/*.............................................................................*/
+
+.contenido-encabezado{
+    width: 100%;
+    height: 100vh;
+    background-image: url(portada.jpg);
+    background-size: cover;
+    background-position: center;
+    box-shadow: inset 0 0 160px 170px  rgba(0, 0, 0, .9);
+    color: #fff;
+    position: fixed;
+    top: 0;
+    left: 0;
 }
 
-.contenedor{
-    width: 90%;
-    margin: auto;
-}
-
-header{
-    padding: 20px 0;
-}
-
-header .contenedor{
+.contenedor-total .contenedor-menu{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 10px 0 5px;
 }
 
-header nav a{
-    color: white;
-    text-decoration: none;
-    margin-right: 35px;
-}
-
-header nav a:hover{
-    color: rgb(119, 83, 136);
-}
-
-.principal{
-    font-size: 16px;
-    min-height: 40.62em;
-    color: rgba(244, 240, 247, 0.952);
-    background: url(portada.jpg);
-    background-position: center center;
-    background-size: cover;
-    margin-bottom: 3.12em;
+.contenedor-total .contenedor-infoImg .principal {
     display: flex;
-    align-items: end;
-   
+    justify-content: center;
+    align-items: flex-end;
+    position: absolute;
+    bottom: 20px;
+    margin-left: 420px;
+
 }
 
-.principal .contenedor{
-    margin: 0 auto;
-    margin-bottom: 1em;
-    margin-left: 29.375em;
+.contenedor-total .contenedor-menu .contenedor-logo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 7px 0;
+    margin-left: 15px;
 }
 
-.principal .titulo{
-    margin-bottom: 0.625em;
+.contenedor-total .contenedor-menu .contenedor-logo .logotipo{
+    letter-spacing: 4px;
+    font-weight: 800;
+}
+
+.contenedor-total .contenedor-menu .contenedor-logo .icono{
+    font-size: 28px;
+    color: yellow;
+    margin: 0px 8px;
+  }
+
+  /*--------------------------------MENÚ---------------------------------------*/
+
+
+  .contenedor-total .contenedor-menu .contenedor-nav a{
+    text-decoration: none;
+    font-size: 18px;
+    margin-right: 40px;
+    color: #fff;
+  }
+
+  .contenedor-total .contenedor-menu .contenedor-nav a:hover{
+      color: yellow;
+  }
+
+  /*-------------------------Botones CHAKRAS--------------------------------------*/
+
+.contenedor-total .contenedor-infoImg .contenedor-btn .btn-7{
+  position: relative;
+  margin-left: 638px;
+  top: 102px;
+}
+
+.contenedor-total .contenedor-infoImg .contenedor-btn .btn-6{
+    position: relative;
+    margin-left: 638px;
+    top: 131px;
+  }
+
+  .contenedor-total .contenedor-infoImg .contenedor-btn .btn-5{
+    position: relative;
+    margin-left: 638px;
+    top: 168px;
+  }
+
+  .contenedor-total .contenedor-infoImg .contenedor-btn .btn-4{
+    position: relative;
+    margin-left: 638px;
+    top: 200px;
+  }
+
+  .contenedor-total .contenedor-infoImg .contenedor-btn .btn-3{
+    position: relative;
+    margin-left: 638px;
+    top: 234px;
+  }
+
+  .contenedor-total .contenedor-infoImg .contenedor-btn .btn-2{
+    position: relative;
+    margin-left: 638px;
+    top: 266px;
+  }
+
+   .contenedor-total .contenedor-infoImg .contenedor-btn .btn-1{
+    position: relative;
+    margin-left: 638px;
+    top: 300px;
+  }
+
+ 
+/*------------------------------ESTRELLAS---------------------------------------------*/
+
+.contenedor-total .s-1{
+    position: relative;
+    top: 200px;
+    left: 70px;
+}
+
+.contenedor-total .s-2{
+    position: relative;
+    top: 180px;
+    left: 200px;
+}
+
+.contenedor-total .s-3{
+    position: relative;
+    top: 80px;
+    left: 300px;
+}
+.contenedor-total .s-4{
+    position: relative;
+    top: -50px;
+}
+.contenedor-total .s-5{
+    position: relative;
+    top: 120px;
+    left: 400px;
+}
+.contenedor-total .s-6{
+    position: relative;
+    top: 250px;
+    left: 250px;
+}
+.contenedor-total .s-7{
+    position: relative;
+    top: 5px;
+    left: 200px;
+}
+.contenedor-total .s-8{
+    position: relative;
+    top: -100px;
+    left: 100px;
+}
+.contenedor-total .s-9{
+    position: relative;
+    top: -130px;
+    left: 380px;
+}
+.contenedor-total .s-10{
+    position: relative;
+    top: 370px;
+}
+.contenedor-total .s-11{
+    position: relative;
+    top: 340px;
+    left: -100px;
+}
+
+/*----------------------------------------------------*/
+.contenedor-total .s-12{
+    position: relative;
+    top: 320px;
+    left: 900px;
+}
+
+.contenedor-total .s-13{
+    position: relative;
+    top: 180px;
+    left: 1000px;
+}
+
+.contenedor-total .s-14{
+    position: relative;
+    top: 80px;
+    left: 850px;
+}
+.contenedor-total .s-15{
+    position: relative;
+    top: -50px;
+    left: 770px;
+}
+.contenedor-total .s-16{
+    position: relative;
+    top: 120px;
+    left: 640px;
+}
+.contenedor-total .s-17{
+    position: relative;
+    top: 250px;
+    left: 900px;
+}
+.contenedor-total .s-18{
+    position: relative;
+    top: 5px;
+    left: 550px;
+}
+.contenedor-total .s-19{
+    position: relative;
+    top: -100px;
+    left: 900px;
+}
+.contenedor-total .s-20{
+    position: relative;
+    top: -80px;
+    left: 370px;
+}
+.contenedor-total .s-21{
+    position: relative;
+    top: 270px;
+    left: 1000px;
+}
+
+.contenedor-total .s-22{
+    position: relative;
+    top: 200px;
+    left: 650px;
+}
+
+/*-------------------ANIMACIÓN ESTRELLAS------------------------------------------------*/
+
+.neon-bco{
+    color: #c2a9a9;
+    font-size: 25px;
+    animation: neon-blanco 4s infinite alternate;
+}
+
+@keyframes neon-blanco{
+    0%, 15%, 30%, 40%, 50%, 60%, 70%, 90%, 100%{
+        text-shadow:8px 8px 16px #fff,
+        8px 8px 16px #fff,
+        -8px 8px 16px #fff,
+        -8px 8px 16px #fff;
+    }
+
+    10% ,15%, 45%, 60%, 75%, 80%{
+        text-shadow: none;
+    }
+}
+
+/*................................*/
+.neon-azul{
+    color: #1a1818;
+    font-size: 15px;
+    animation: neon-azul 6s infinite alternate;
+}
+
+@keyframes neon-azul{
+    0%, 15%, 40%, 50%, 60%, 70%, 100%{
+        text-shadow:8px 8px 16px #438dfc,
+        8px 8px 16px #438dfc,
+        -8px 8px 16px #438dfc,
+        -8px 8px 16px #438dfc;
+    }
+
+    10%, 60%, 75%, 80%{
+        text-shadow: none;
+    }
+}
+
+/*........................................*/
+.neon-rosa{
+    color: rgb(226, 168, 204);
+    font-size: 25px;
+    animation: neon-rosa 7s infinite alternate;
+}
+
+@keyframes neon-rosa{
+    0%, 15%, 30%, 40%, 50%, 60%, 70%, 90%, 100%{
+        text-shadow:8px 8px 16px rgb(194, 4, 99),
+        8px 8px 16px rgb(177, 2, 89),
+        -8px 8px 16px rgb(141, 2, 72),
+        -8px 8px 16px rgb(146, 1, 74);
+    }
+
+    10% ,15%, 45%, 60%, 75%, 80%{
+        text-shadow: none;
+    }
 }
