@@ -80,44 +80,220 @@ body{
   position: relative;
   margin-left: 638px;
   top: 102px;
+  cursor: pointer;
 }
 
 .contenedor-total .contenedor-infoImg .contenedor-btn .btn-6{
     position: relative;
     margin-left: 638px;
     top: 131px;
+    cursor: pointer;
   }
 
   .contenedor-total .contenedor-infoImg .contenedor-btn .btn-5{
     position: relative;
     margin-left: 638px;
     top: 168px;
+    cursor: pointer;
   }
 
   .contenedor-total .contenedor-infoImg .contenedor-btn .btn-4{
     position: relative;
     margin-left: 638px;
     top: 200px;
+    cursor: pointer;
   }
 
   .contenedor-total .contenedor-infoImg .contenedor-btn .btn-3{
     position: relative;
     margin-left: 638px;
     top: 234px;
+    cursor: pointer;
   }
 
   .contenedor-total .contenedor-infoImg .contenedor-btn .btn-2{
     position: relative;
     margin-left: 638px;
     top: 266px;
+    cursor: pointer;
   }
 
    .contenedor-total .contenedor-infoImg .contenedor-btn .btn-1{
     position: relative;
     margin-left: 638px;
     top: 300px;
+    cursor: pointer;
+   
   }
+/*.........................................Esferas chakras.........................*/
 
+.neon-7{
+    width: 27px;
+    height: 27px;
+    background-color: purple;
+    border-radius: 50%;
+    position: absolute;
+    left:-8px;
+    animation: chakra7 2s infinite alternate;
+}
+
+@keyframes chakra7{
+    0%, 10%, 15%, 20%, 30%, 35%, 40%, 50%, 55%, 60%, 70%, 75%, 80%, 85%, 90%, 100%{
+        box-shadow: 9px 9px 18px rgb(146, 39, 146),
+                    3px 3px 5px rgb(158, 66, 158),
+                    -3px -3px 5px rgb(168, 108, 168),
+                    -9px -9px 27px rgb(199, 64, 199);
+    }
+    10%, 15%, 60%{
+        box-shadow: none;
+    }
+}
+
+
+.neon-6{
+    width: 27px;
+    height: 27px;
+    background-color: blueviolet;
+    border-radius: 50%;
+    position: absolute;
+    left:-8px;
+    animation: chakra6 3s infinite alternate;
+}
+
+@keyframes chakra6{
+    0%, 10%, 15%, 20%, 30%, 35%, 40%, 50%, 55%, 60%, 70%, 75%, 80%, 85%, 90%, 100%{
+        box-shadow: 9px 9px 18px rgb(142, 73, 207),
+                    3px 3px 5px rgb(128, 87, 167),
+                    -3px -3px 5px rgb(236, 177, 236),
+                    -9px -9px 27px rgb(191, 147, 231);
+    }
+    10%, 15%, 60%{
+        box-shadow: none;
+    }
+}
+
+
+
+.neon-5{
+    width: 27px;
+    height: 27px;
+    background-color: #41aaf0;
+    border-radius: 50%;
+    position: absolute;
+    left:-8px;
+    top: 2px;
+    animation: chakra5 4s infinite alternate;
+}
+
+@keyframes chakra5{
+    0%, 10%, 15%, 20%, 30%, 35%, 40%, 50%, 55%, 60%, 70%, 75%, 80%, 85%, 90%, 100%{
+        box-shadow: 9px 9px 18px #7bbeeb,
+                    3px 3px 5px #84c8f5,
+                    -3px -3px 5px #bddff7,
+                    -9px -9px 27px #a2ceee;
+    }
+    10%, 15%, 60%{
+        box-shadow: none;
+    }
+}
+
+
+
+.neon-4{
+    width: 27px;
+    height: 27px;
+    background-color: #0bf199;
+    border-radius: 50%;
+    position: absolute;
+    left:-8px;
+    top: 2px;
+    animation: chakra4 5s infinite alternate;
+}
+
+@keyframes chakra4{
+    0%, 10%, 15%, 20%, 30%, 35%, 40%, 50%, 55%, 60%, 70%, 75%, 80%, 85%, 90%, 100%{
+        box-shadow: 9px 9px 18px #76eec0,
+                    3px 3px 5px #7edab8,
+                    -3px -3px 5px #beecdb,
+                    -9px -9px 27px #69d4ab;
+    }
+    10%, 15%, 60%{
+        box-shadow: none;
+    }
+}
+
+
+
+.neon-3{
+    width: 27px;
+    height: 27px;
+    background-color: rgb(238, 238, 14);
+    border-radius: 50%;
+    position: absolute;
+    left:-8px;
+    top: 2px;
+    animation: chakra3 6s infinite alternate;
+}
+
+@keyframes chakra3{
+    0%, 10%, 15%, 20%, 30%, 35%, 40%, 50%, 55%, 60%, 70%, 75%, 80%, 85%, 90%, 100%{
+        box-shadow: 9px 9px 18px rgb(211, 211, 104),
+                    3px 3px 5px rgb(247, 247, 120),
+                    -3px -3px 5px rgb(245, 245, 201),
+                    -9px -9px 27px rgb(201, 201, 141);
+    }
+    10%, 15%, 60%{
+        box-shadow: none;
+    }
+}
+
+
+.neon-2{
+    width: 27px;
+    height: 27px;
+    background-color: rgb(221, 93, 47);
+    border-radius: 50%;
+    position: absolute;
+    left:-8px;
+    top: 3px;
+    animation: chakra2 7s infinite alternate;
+}
+
+@keyframes chakra2{
+    0%, 10%, 15%, 20%, 30%, 35%, 40%, 50%, 55%, 60%, 70%, 75%, 80%, 85%, 90%, 100%{
+        box-shadow: 9px 9px 18px rgb(241, 116, 70),
+                    3px 3px 5px rgb(235, 181, 161),
+                    -3px -3px 5px rgb(248, 208, 193),
+                    -9px -9px 27px rgb(245, 211, 199);
+    }
+    10%, 15%, 60%{
+        box-shadow: none;
+    }
+}
+
+
+.neon-1{
+    width: 27px;
+    height: 27px;
+    background-color: rgb(253, 3, 3);
+    border-radius: 50%;
+    position: absolute;
+    left:-8px;
+    top: 3px;
+    animation: chakra1 8s infinite alternate;
+}
+
+@keyframes chakra1{
+    0%, 10%, 15%, 20%, 30%, 35%, 40%, 50%, 55%, 60%, 70%, 75%, 80%, 85%, 90%, 100%{
+        box-shadow: 9px 9px 18px rgb(243, 105, 105),
+                    3px 3px 5px rgb(235, 167, 167),
+                    -3px -3px 5px rgb(231, 162, 162),
+                    -9px -9px 27px rgb(243, 189, 189);
+    }
+    10%, 15%, 60%{
+        box-shadow: none;
+    }
+}
  
 /*------------------------------ESTRELLAS---------------------------------------------*/
 
@@ -297,3 +473,4 @@ body{
         text-shadow: none;
     }
 }
+
