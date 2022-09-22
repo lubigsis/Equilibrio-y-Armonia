@@ -1,0 +1,476 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #e1dde9;
+    font-family: 'Mali', cursive;
+}
+
+/*.............................................................................*/
+
+.contenido-encabezado{
+    width: 100%;
+    height: 100vh;
+    background-image: url(portada.jpg);
+    background-size: cover;
+    background-position: center;
+    box-shadow: inset 0 0 160px 170px  rgba(0, 0, 0, .9);
+    color: #fff;
+    /*position: fixed;*/
+    top: 0;
+    left: 0;
+}
+
+.contenedor-total .contenedor-menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0 5px;
+}
+
+.contenedor-total .contenedor-infoImg .principal {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    position: absolute;
+    bottom: 20px;
+    margin-left: 420px;
+
+}
+
+.contenedor-total .contenedor-menu .contenedor-logo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 7px 0;
+    margin-left: 15px;
+}
+
+.contenedor-total .contenedor-menu .contenedor-logo .logotipo{
+    letter-spacing: 4px;
+    font-weight: 800;
+}
+
+.contenedor-total .contenedor-menu .contenedor-logo .icono{
+    font-size: 28px;
+    color: yellow;
+    margin: 0px 8px;
+  }
+
+  /*--------------------------------MENÚ---------------------------------------*/
+
+
+  .contenedor-total .contenedor-menu .contenedor-nav a{
+    text-decoration: none;
+    font-size: 18px;
+    margin-right: 40px;
+    color: #fff;
+  }
+
+  .contenedor-total .contenedor-menu .contenedor-nav a:hover{
+      color: yellow;
+  }
+
+  /*-------------------------Botones CHAKRAS--------------------------------------*/
+
+.contenedor-total .contenedor-infoImg .contenedor-btn .btn-7{
+  position: relative;
+  margin-left: 638px;
+  top: 102px;
+  cursor: pointer;
+}
+
+.contenedor-total .contenedor-infoImg .contenedor-btn .btn-6{
+    position: relative;
+    margin-left: 638px;
+    top: 131px;
+    cursor: pointer;
+  }
+
+  .contenedor-total .contenedor-infoImg .contenedor-btn .btn-5{
+    position: relative;
+    margin-left: 638px;
+    top: 168px;
+    cursor: pointer;
+  }
+
+  .contenedor-total .contenedor-infoImg .contenedor-btn .btn-4{
+    position: relative;
+    margin-left: 638px;
+    top: 200px;
+    cursor: pointer;
+  }
+
+  .contenedor-total .contenedor-infoImg .contenedor-btn .btn-3{
+    position: relative;
+    margin-left: 638px;
+    top: 234px;
+    cursor: pointer;
+  }
+
+  .contenedor-total .contenedor-infoImg .contenedor-btn .btn-2{
+    position: relative;
+    margin-left: 638px;
+    top: 266px;
+    cursor: pointer;
+  }
+
+   .contenedor-total .contenedor-infoImg .contenedor-btn .btn-1{
+    position: relative;
+    margin-left: 638px;
+    top: 300px;
+    cursor: pointer;
+   
+  }
+/*.........................................Esferas chakras.........................*/
+
+.neon-7{
+    width: 27px;
+    height: 27px;
+    background-color: purple;
+    border-radius: 50%;
+    position: absolute;
+    left:-8px;
+    animation: chakra7 2s infinite alternate;
+}
+
+@keyframes chakra7{
+    0%, 10%, 15%, 20%, 30%, 35%, 40%, 50%, 55%, 60%, 70%, 75%, 80%, 85%, 90%, 100%{
+        box-shadow: 9px 9px 18px rgb(146, 39, 146),
+                    3px 3px 5px rgb(158, 66, 158),
+                    -3px -3px 5px rgb(168, 108, 168),
+                    -9px -9px 27px rgb(199, 64, 199);
+    }
+    10%, 15%, 60%{
+        box-shadow: none;
+    }
+}
+
+
+.neon-6{
+    width: 27px;
+    height: 27px;
+    background-color: blueviolet;
+    border-radius: 50%;
+    position: absolute;
+    left:-8px;
+    animation: chakra6 3s infinite alternate;
+}
+
+@keyframes chakra6{
+    0%, 10%, 15%, 20%, 30%, 35%, 40%, 50%, 55%, 60%, 70%, 75%, 80%, 85%, 90%, 100%{
+        box-shadow: 9px 9px 18px rgb(142, 73, 207),
+                    3px 3px 5px rgb(128, 87, 167),
+                    -3px -3px 5px rgb(236, 177, 236),
+                    -9px -9px 27px rgb(191, 147, 231);
+    }
+    10%, 15%, 60%{
+        box-shadow: none;
+    }
+}
+
+
+
+.neon-5{
+    width: 27px;
+    height: 27px;
+    background-color: #41aaf0;
+    border-radius: 50%;
+    position: absolute;
+    left:-8px;
+    top: 2px;
+    animation: chakra5 4s infinite alternate;
+}
+
+@keyframes chakra5{
+    0%, 10%, 15%, 20%, 30%, 35%, 40%, 50%, 55%, 60%, 70%, 75%, 80%, 85%, 90%, 100%{
+        box-shadow: 9px 9px 18px #7bbeeb,
+                    3px 3px 5px #84c8f5,
+                    -3px -3px 5px #bddff7,
+                    -9px -9px 27px #a2ceee;
+    }
+    10%, 15%, 60%{
+        box-shadow: none;
+    }
+}
+
+
+
+.neon-4{
+    width: 27px;
+    height: 27px;
+    background-color: #0bf199;
+    border-radius: 50%;
+    position: absolute;
+    left:-8px;
+    top: 2px;
+    animation: chakra4 5s infinite alternate;
+}
+
+@keyframes chakra4{
+    0%, 10%, 15%, 20%, 30%, 35%, 40%, 50%, 55%, 60%, 70%, 75%, 80%, 85%, 90%, 100%{
+        box-shadow: 9px 9px 18px #76eec0,
+                    3px 3px 5px #7edab8,
+                    -3px -3px 5px #beecdb,
+                    -9px -9px 27px #69d4ab;
+    }
+    10%, 15%, 60%{
+        box-shadow: none;
+    }
+}
+
+
+
+.neon-3{
+    width: 27px;
+    height: 27px;
+    background-color: rgb(238, 238, 14);
+    border-radius: 50%;
+    position: absolute;
+    left:-8px;
+    top: 2px;
+    animation: chakra3 6s infinite alternate;
+}
+
+@keyframes chakra3{
+    0%, 10%, 15%, 20%, 30%, 35%, 40%, 50%, 55%, 60%, 70%, 75%, 80%, 85%, 90%, 100%{
+        box-shadow: 9px 9px 18px rgb(211, 211, 104),
+                    3px 3px 5px rgb(247, 247, 120),
+                    -3px -3px 5px rgb(245, 245, 201),
+                    -9px -9px 27px rgb(201, 201, 141);
+    }
+    10%, 15%, 60%{
+        box-shadow: none;
+    }
+}
+
+
+.neon-2{
+    width: 27px;
+    height: 27px;
+    background-color: rgb(221, 93, 47);
+    border-radius: 50%;
+    position: absolute;
+    left:-8px;
+    top: 3px;
+    animation: chakra2 7s infinite alternate;
+}
+
+@keyframes chakra2{
+    0%, 10%, 15%, 20%, 30%, 35%, 40%, 50%, 55%, 60%, 70%, 75%, 80%, 85%, 90%, 100%{
+        box-shadow: 9px 9px 18px rgb(241, 116, 70),
+                    3px 3px 5px rgb(235, 181, 161),
+                    -3px -3px 5px rgb(248, 208, 193),
+                    -9px -9px 27px rgb(245, 211, 199);
+    }
+    10%, 15%, 60%{
+        box-shadow: none;
+    }
+}
+
+
+.neon-1{
+    width: 27px;
+    height: 27px;
+    background-color: rgb(253, 3, 3);
+    border-radius: 50%;
+    position: absolute;
+    left:-8px;
+    top: 3px;
+    animation: chakra1 8s infinite alternate;
+}
+
+@keyframes chakra1{
+    0%, 10%, 15%, 20%, 30%, 35%, 40%, 50%, 55%, 60%, 70%, 75%, 80%, 85%, 90%, 100%{
+        box-shadow: 9px 9px 18px rgb(243, 105, 105),
+                    3px 3px 5px rgb(235, 167, 167),
+                    -3px -3px 5px rgb(231, 162, 162),
+                    -9px -9px 27px rgb(243, 189, 189);
+    }
+    10%, 15%, 60%{
+        box-shadow: none;
+    }
+}
+ 
+/*------------------------------ESTRELLAS---------------------------------------------*/
+
+.contenedor-total .s-1{
+    position: relative;
+    top: 200px;
+    left: 70px;
+}
+
+.contenedor-total .s-2{
+    position: relative;
+    top: 180px;
+    left: 200px;
+}
+
+.contenedor-total .s-3{
+    position: relative;
+    top: 80px;
+    left: 300px;
+}
+.contenedor-total .s-4{
+    position: relative;
+    top: -50px;
+}
+.contenedor-total .s-5{
+    position: relative;
+    top: 120px;
+    left: 400px;
+}
+.contenedor-total .s-6{
+    position: relative;
+    top: 250px;
+    left: 250px;
+}
+.contenedor-total .s-7{
+    position: relative;
+    top: 5px;
+    left: 200px;
+}
+.contenedor-total .s-8{
+    position: relative;
+    top: -100px;
+    left: 100px;
+}
+.contenedor-total .s-9{
+    position: relative;
+    top: -130px;
+    left: 380px;
+}
+.contenedor-total .s-10{
+    position: relative;
+    top: 370px;
+}
+.contenedor-total .s-11{
+    position: relative;
+    top: 340px;
+    left: -100px;
+}
+
+/*----------------------------------------------------*/
+.contenedor-total .s-12{
+    position: relative;
+    top: 320px;
+    left: 900px;
+}
+
+.contenedor-total .s-13{
+    position: relative;
+    top: 180px;
+    left: 1000px;
+}
+
+.contenedor-total .s-14{
+    position: relative;
+    top: 80px;
+    left: 850px;
+}
+.contenedor-total .s-15{
+    position: relative;
+    top: -50px;
+    left: 770px;
+}
+.contenedor-total .s-16{
+    position: relative;
+    top: 120px;
+    left: 640px;
+}
+.contenedor-total .s-17{
+    position: relative;
+    top: 250px;
+    left: 900px;
+}
+.contenedor-total .s-18{
+    position: relative;
+    top: 5px;
+    left: 550px;
+}
+.contenedor-total .s-19{
+    position: relative;
+    top: -100px;
+    left: 900px;
+}
+.contenedor-total .s-20{
+    position: relative;
+    top: -80px;
+    left: 370px;
+}
+.contenedor-total .s-21{
+    position: relative;
+    top: 270px;
+    left: 1000px;
+}
+
+.contenedor-total .s-22{
+    position: relative;
+    top: 200px;
+    left: 650px;
+}
+
+/*-------------------ANIMACIÓN ESTRELLAS------------------------------------------------*/
+
+.neon-bco{
+    color: #c2a9a9;
+    font-size: 25px;
+    animation: neon-blanco 4s infinite alternate;
+}
+
+@keyframes neon-blanco{
+    0%, 15%, 30%, 40%, 50%, 60%, 70%, 90%, 100%{
+        text-shadow:8px 8px 16px #fff,
+        8px 8px 16px #fff,
+        -8px 8px 16px #fff,
+        -8px 8px 16px #fff;
+    }
+
+    10% ,15%, 45%, 60%, 75%, 80%{
+        text-shadow: none;
+    }
+}
+
+/*................................*/
+.neon-azul{
+    color: #1a1818;
+    font-size: 15px;
+    animation: neon-azul 6s infinite alternate;
+}
+
+@keyframes neon-azul{
+    0%, 15%, 40%, 50%, 60%, 70%, 100%{
+        text-shadow:8px 8px 16px #438dfc,
+        8px 8px 16px #438dfc,
+        -8px 8px 16px #438dfc,
+        -8px 8px 16px #438dfc;
+    }
+
+    10%, 60%, 75%, 80%{
+        text-shadow: none;
+    }
+}
+
+/*........................................*/
+.neon-rosa{
+    color: rgb(226, 168, 204);
+    font-size: 25px;
+    animation: neon-rosa 7s infinite alternate;
+}
+
+@keyframes neon-rosa{
+    0%, 15%, 30%, 40%, 50%, 60%, 70%, 90%, 100%{
+        text-shadow:8px 8px 16px rgb(194, 4, 99),
+        8px 8px 16px rgb(177, 2, 89),
+        -8px 8px 16px rgb(141, 2, 72),
+        -8px 8px 16px rgb(146, 1, 74);
+    }
+
+    10% ,15%, 45%, 60%, 75%, 80%{
+        text-shadow: none;
+    }
+}
+
