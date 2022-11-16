@@ -51,7 +51,8 @@ body{
 
 .contenedor-total .contenedor-menu .contenedor-logo .logotipo{
     letter-spacing: 4px;
-    font-weight: 800;
+    font-size: 30px;
+    font-family: 'Kalam', cursive;
 }
 
 .contenedor-total .contenedor-menu .contenedor-logo .icono{
