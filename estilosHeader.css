@@ -14,31 +14,33 @@ body{
 .contenido-encabezado{
     width: 100%;
     height: 100vh;
+    max-width: 1200px;
+    margin: auto;
     background-image: url(portada.jpg);
     background-size: cover;
     background-position: center;
     box-shadow: inset 0 0 160px 170px  rgba(0, 0, 0, .9);
     color: #fff;
-    /*position: fixed;*/
-    top: 0;
-    left: 0;
+   /* border: 2px solid yellow;*/
 }
 
+.contenedor-total{
+  /*  border: 2px solid red;*/
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: relative;
+}
+
+/*-------------------------------------------------------------------------------------MENÚ--------------------*/
 .contenedor-total .contenedor-menu{
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 10px 0 5px;
-}
-
-.contenedor-total .contenedor-infoImg .principal {
-    display: flex;
-    justify-content: center;
-    align-items: flex-end;
-    position: absolute;
-    bottom: 20px;
-    margin-left: 420px;
-
+  /*  border: 2px solid white;*/
 }
 
 .contenedor-total .contenedor-menu .contenedor-logo{
@@ -59,74 +61,93 @@ body{
     font-size: 28px;
     color: yellow;
     margin: 0px 8px;
+    
   }
 
-  /*--------------------------------MENÚ---------------------------------------*/
-
-
+  
   .contenedor-total .contenedor-menu .contenedor-nav a{
     text-decoration: none;
     font-size: 18px;
     margin-right: 40px;
     color: #fff;
+    letter-spacing: 1px;
+    padding: 10px;
+    transition: all ease 1s;
   }
 
   .contenedor-total .contenedor-menu .contenedor-nav a:hover{
       color: yellow;
+      border: 1px solid yellow;
+      border-radius: 30px;
   }
 
-  /*-------------------------Botones CHAKRAS--------------------------------------*/
+/*----------------------------------------------------------------------PORTADA-texto----------------------------*/
 
-.contenedor-total .contenedor-infoImg .contenedor-btn .btn-7{
-  position: relative;
-  margin-left: 638px;
-  top: 102px;
+.contenedor-total .principal {
+    text-align: center;
+  /*  border: 3px solid orange;*/
+    padding: 10px;
+}
+
+.contenedor-total .principal .titulo, .descripcion{
+    letter-spacing: 2px;
+    padding-bottom: 5px;
+}
+
+
+/*----------------------------------------------------------------------PORTADA-CHAKRAS----------------------------*/
+
+
+.contenedor-total .btn-7{
+  position: absolute;
+  left: 50%;
+  top: 25%;
   cursor: pointer;
 }
 
-.contenedor-total .contenedor-infoImg .contenedor-btn .btn-6{
-    position: relative;
-    margin-left: 638px;
-    top: 131px;
+.contenedor-total .btn-6{
+    position: absolute;
+    left: 50%;
+    top: 33%;
     cursor: pointer;
   }
 
-  .contenedor-total .contenedor-infoImg .contenedor-btn .btn-5{
-    position: relative;
-    margin-left: 638px;
-    top: 168px;
+  .contenedor-total .btn-5{
+    position: absolute;
+    left: 50%;
+    top: 43%;
     cursor: pointer;
   }
 
-  .contenedor-total .contenedor-infoImg .contenedor-btn .btn-4{
-    position: relative;
-    margin-left: 638px;
-    top: 200px;
+  .contenedor-total .btn-4{
+    position: absolute;
+    left: 50%;
+    top: 51%;
     cursor: pointer;
   }
 
-  .contenedor-total .contenedor-infoImg .contenedor-btn .btn-3{
-    position: relative;
-    margin-left: 638px;
-    top: 234px;
+  .contenedor-total .btn-3{
+    position: absolute;
+    left: 50%;
+    top: 60%;
     cursor: pointer;
   }
 
-  .contenedor-total .contenedor-infoImg .contenedor-btn .btn-2{
-    position: relative;
-    margin-left: 638px;
-    top: 266px;
+  .contenedor-total .btn-2{
+    position: absolute;
+    left: 50%;
+    top: 69%;
     cursor: pointer;
   }
 
-   .contenedor-total .contenedor-infoImg .contenedor-btn .btn-1{
-    position: relative;
-    margin-left: 638px;
-    top: 300px;
+   .contenedor-total .btn-1{
+    position: absolute;
+    left: 50%;
+    top: 78%;
     cursor: pointer;
    
   }
-/*.........................................Esferas chakras.........................*/
+/*.........................................Esferas chakras. ANIMACIÓN......................................*/
 
 .neon-7{
     width: 27px;
@@ -296,125 +317,149 @@ body{
     }
 }
  
-/*------------------------------ESTRELLAS---------------------------------------------*/
+/*------------------------------ESTRELLAS-lado izquierdo-----------------------------------------------------*/
 
 .contenedor-total .s-1{
-    position: relative;
-    top: 200px;
-    left: 70px;
+    position: absolute;
+    top: 46.7%;
+    left: 11%;
+    /*color: yellow;*/
 }
 
 .contenedor-total .s-2{
-    position: relative;
-    top: 180px;
-    left: 200px;
+    position: absolute;
+    top: 36%;
+    left: 31%;
+   /* color: red;*/
 }
 
 .contenedor-total .s-3{
-    position: relative;
-    top: 80px;
-    left: 300px;
+    position: absolute;
+    top: 71%;
+    left: 15%;
+    color: rgb(220, 217, 217);
 }
 .contenedor-total .s-4{
-    position: relative;
-    top: -50px;
+    position: absolute;
+    top: 65%;
+    left: 34.5%;
+    /*color: red;*/
 }
 .contenedor-total .s-5{
-    position: relative;
-    top: 120px;
-    left: 400px;
+    position: absolute;
+    top: 71%;
+    left: 28.5%;
+    /*color: yellow;*/
 }
 .contenedor-total .s-6{
-    position: relative;
-    top: 250px;
-    left: 250px;
+    position: absolute;
+    top: 47%;
+    left: 31.5%;
+    /*color: yellow;*/
 }
 .contenedor-total .s-7{
-    position: relative;
-    top: 5px;
-    left: 200px;
+    position: absolute;
+    top: 49%;
+    left: 38.5%;
+    /*color: yellow;*/
 }
 .contenedor-total .s-8{
-    position: relative;
-    top: -100px;
-    left: 100px;
+    position: absolute;
+    top: 30%;
+    left: 40%;
+    /*color: yellow;*/
 }
 .contenedor-total .s-9{
-    position: relative;
-    top: -130px;
-    left: 380px;
+    position: absolute;
+    top: 14%;
+    left: 41.5%;
+    /*color: red;*/
 }
 .contenedor-total .s-10{
-    position: relative;
-    top: 370px;
+    position: absolute;
+    top: 16%;
+    left: 45.4%;
+   /* color: yellow;*/
 }
 .contenedor-total .s-11{
-    position: relative;
-    top: 340px;
-    left: -100px;
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    color: rgb(220, 217, 217);
 }
 
-/*----------------------------------------------------*/
+/*---------------------------------------------------ESTRELLAS lado derecho----------------------------*/
 .contenedor-total .s-12{
-    position: relative;
-    top: 320px;
-    left: 900px;
+    position: absolute;
+    top: 56%;
+    left: 58%;
+   /* color: yellow;*/
 }
 
 .contenedor-total .s-13{
-    position: relative;
-    top: 180px;
-    left: 1000px;
+    position: absolute;
+    top: 23%;
+    left: 57.6%;
+   /* color: red;*/
 }
 
 .contenedor-total .s-14{
-    position: relative;
-    top: 80px;
-    left: 850px;
+    position: absolute;
+    top: 22%;
+    left: 71.3%;
+   /* color: yellow;*/
 }
 .contenedor-total .s-15{
-    position: relative;
-    top: -50px;
-    left: 770px;
+    position: absolute;
+    top: 34%;
+    left: 83%;
+   /* color: yellow;*/
 }
 .contenedor-total .s-16{
-    position: relative;
-    top: 120px;
-    left: 640px;
+    position: absolute;
+    top: 31%;
+    left: 84%;
+  /*  color: yellow;*/
 }
 .contenedor-total .s-17{
-    position: relative;
-    top: 250px;
-    left: 900px;
+    position: absolute;
+    top: 26.7%;
+    left: 78.4%;
+  /*  color: yellow;*/
 }
 .contenedor-total .s-18{
-    position: relative;
-    top: 5px;
-    left: 550px;
+    position: absolute;
+    top: 30%;
+    left: 90%;
+    /*color: yellow;*/
 }
 .contenedor-total .s-19{
-    position: relative;
-    top: -100px;
-    left: 900px;
+    position: absolute;
+    top: 69%;
+    left: 87%;
+   /* color: yellow;*/
 }
 .contenedor-total .s-20{
-    position: relative;
-    top: -80px;
-    left: 370px;
+    position: absolute;
+    top: 70%;
+    left: 97%;
+   /* color: yellow;*/
 }
 .contenedor-total .s-21{
-    position: relative;
-    top: 270px;
-    left: 1000px;
+    position: absolute;
+    top: 58%;
+    left: 87%;
+    /*color: yellow;*/
 }
 
 .contenedor-total .s-22{
-    position: relative;
-    top: 200px;
-    left: 650px;
+    position: absolute;
+    top: 78%;
+    left: 97%;
+   /* color: yellow;*/
 }
 
-/*-------------------ANIMACIÓN ESTRELLAS------------------------------------------------*/
+/*--------------------------------------ANIMACIÓN ESTRELLAS------------------------------------------------*/
 
 .neon-bco{
     color: #c2a9a9;
