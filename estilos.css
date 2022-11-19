@@ -22,7 +22,7 @@
 }
 
 .card-chakra{
-   /* border: 1px solid blue;*/
+   border: 2px solid #e7e5e5;
     width: 300px;
     height: 400px;
     margin: 25px 10px;
@@ -30,8 +30,15 @@
     overflow: visible;
     background: #fff;
     box-shadow: 3px 10px 15px rgba(0,0,0,0.7);
-    cursor: default;
+    cursor: pointer;
     padding: 20px;
+    transition: all 1s linear;
+ }
+
+ .card-chakra:hover{
+    transform: scale(1.1);
+    border: 2px solid #5e5c5c;
+    border-radius: 30px;
  }
 
 .card-chakra .card-contenido{
@@ -336,10 +343,88 @@
     width: 100%;
     max-width: 1200px;
     height: auto;
-    margin: auto;
-    border: 2px solid yellow;
-    text-align: center;
-    padding: 20px;
+    margin: 70px auto 0px;
+    /*border: 2px solid yellow;*/
+    padding: 40px 20px 30px;
+    background-image: linear-gradient(#e4dcdc, #57808b, black, #4b194b);
   
 }
 
+.pie-pagina .container-footer{
+/* border: 2px solid red;*/
+ display: flex;
+ flex-wrap: wrap;
+ justify-content: space-around;
+ align-items: center;
+}
+
+.pie-pagina .container-footer .info-footer{
+   /* border: 2px solid green;*/
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+}
+
+.pie-pagina .container-footer .info-footer .texto{
+    background-color:#749eaa;
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.pie-pagina .container-footer .info-footer .texto h5{
+    padding: 20px;
+    font-size: 18px;
+}
+
+.pie-pagina .container-footer .info-footer .social{
+    /*border: 2px solid black;*/
+    width: 100%;
+    padding: 35px;
+    text-align: center;
+    background-color: #fff;
+    border-radius: 5px;
+
+}
+
+
+.social .fa-brands, .fa-solid{
+    margin: 0px 30px;
+    font-size: 40px;
+    cursor: pointer;
+}
+
+
+
+.fa-square-facebook{
+    background: #fff;
+    color: #3b5998;
+    
+}
+
+.fa-square-instagram{
+    color: #c83759;
+}
+
+.fa-envelope{
+    background: #fff;
+    color:#e4220c;
+  }
+
+.pie-pagina .container-footer .plano-footer{
+    border: 2px solid purple;
+   /* width: 60%;
+    margin: auto;*/
+    margin: auto;
+    overflow: hidden;
+}
+
+.pie-pagina .container-footer .plano-footer iframe{
+    width: 100%;
+    height: auto;
+    margin: auto;
+    border: 3px solid pink;
+}
