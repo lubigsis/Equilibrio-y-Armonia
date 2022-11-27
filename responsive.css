@@ -567,6 +567,7 @@
         font-size: 15px;
         line-height: 25px;  
         text-align: center; 
+        padding: 20px 10px;
     }
 
     /*---------------------------------------------------------------------quien soy------------------------------------*/
@@ -590,12 +591,13 @@
     font-size: 15px;
     line-height: 25px;  
     text-align: center; 
+    padding: 20px 10px;
 }
 
 /*------------------------------------------------------------------------contacto----------------------------*/
 
 .cont-form-contacto{
-    width: 96%;
+    width: 100%;
     height: 500px;
     padding: 10px;  
 }
@@ -621,7 +623,7 @@
 
 .pie-pagina{
     width: 100%;
-    margin: 70px auto 0px;
+    margin-top: 70px;
     padding: 2px 1px;
    
   
