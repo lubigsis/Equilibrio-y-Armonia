@@ -1,0 +1,674 @@
+/*-------------------------------------------------------------------------------------1920px-----------------*/
+/*-------------------------------------------------------------------------------------1920px-----------------*/
+/*-------------------------------------------------------------------------------------1920px-----------------*/
+
+@media screen and (max-width: 1920px){
+
+    /*-----------------------------------------------portada-----------------*/
+    .contenedor-total .principal {
+       padding: 20px;
+    }
+
+    .contenedor-total .principal .titulo, .descripcion{
+        letter-spacing: 3px;
+        font-size: 30px;
+    }
+    
+    /*----------------------------------------------chakras-----------------*/
+    .contenedor-total .btn-7{
+        top: 34%;
+        
+      }
+
+      .contenedor-total .btn-6{
+        top: 39%;
+        
+      }
+
+      .contenedor-total .btn-5{
+        top: 45.9%;
+       
+      }
+    
+      .contenedor-total .btn-4{
+        top: 51%;
+       
+      }
+    
+      .contenedor-total .btn-3{
+        top: 57.2%;
+        
+      }
+    
+      .contenedor-total .btn-2{
+        top: 63%;
+        
+      }
+    
+       .contenedor-total .btn-1{
+        top: 69%;
+        
+       
+      }
+    
+}
+
+
+/*-------------------------------------------------------------------------------------1200px-----------------*/
+/*-------------------------------------------------------------------------------------1200px-----------------*/
+/*-------------------------------------------------------------------------------------1200px-----------------*/
+
+@media screen and (max-width: 1200px){
+
+
+     /*----------------------------------------------portada-----------------*/
+    .contenedor-total .principal {
+        padding: 10px;
+    }
+ 
+    .contenedor-total .principal .titulo, .descripcion{
+        letter-spacing: 2px;
+        padding-bottom: 5px;
+        font-size: 20px;
+    }
+
+     /*----------------------------------------------chakras-----------------*/
+     .contenedor-total .btn-7{
+        top: 26%;
+        
+      }
+      
+      .contenedor-total .btn-6{
+          top: 33%;
+          
+        }
+      
+        .contenedor-total .btn-5{
+          top: 42.5%;
+          
+        }
+      
+        .contenedor-total .btn-4{
+         top: 51.3%;
+          
+        }
+      
+        .contenedor-total .btn-3{
+         top: 60.1%;
+         
+        }
+      
+        .contenedor-total .btn-2{
+          top: 69%;
+          
+        }
+      
+         .contenedor-total .btn-1{
+          top: 77%;
+          
+         
+        }
+
+}
+
+
+/*-------------------------------------------------------------------------------------992px-----------------*/
+/*-------------------------------------------------------------------------------------992px-----------------*/
+/*-------------------------------------------------------------------------------------992px-----------------*/
+
+@media screen and (max-width: 992px){
+
+    
+     /*----------------------------------------------chakras-----------------*/
+     .contenedor-total .btn-7{
+        top: 31%;
+        
+      }
+      
+      .contenedor-total .btn-6{
+          top: 38%;
+          
+        }
+      
+        .contenedor-total .btn-5{
+          top: 44%;
+          
+        }
+      
+        .contenedor-total .btn-4{
+         top: 50.4%;
+          
+        }
+      
+        .contenedor-total .btn-3{
+         top: 57%;
+         
+        }
+      
+        .contenedor-total .btn-2{
+          top: 63%;
+          
+        }
+      
+         .contenedor-total .btn-1{
+          top: 70%;
+          
+         
+        }
+
+
+
+/*-------------------------------------------BANNER FRASE 1-------------------------------------------------------------*/
+
+.banner-frase .contenido-banner-frase{
+    width: 90%;
+    padding-top: 45px;
+    line-height: 1.6;
+    
+        
+}
+
+/*---------------------------------------------------------------------quien soy------------------------------------*/
+
+.seccion-quienSoy .cont-quiensoy{
+     width: 60%;
+     
+     
+ }
+
+ .seccion-quienSoy .cont-quiensoy p{
+    margin: 10px 0px;
+    line-height: 1.4;
+    font-size: 22px;
+    letter-spacing: 1.3px;
+    color: #000;
+}
+
+/*----------------------------------------------------------------BANNER FRASE 2------------------------------*/
+
+.banner-frase2 .contenido-banner-frase2{
+    width: 90%;
+    padding-top: 45px;
+    line-height: 1.6;
+    
+        
+}
+
+/*------------------------------------------------------------------------contacto----------------------------*/
+
+.cont-form-contacto{
+    width: 60%;
+    height: 500px;
+        
+}
+
+.seccion-contacto .cont-form-contacto form p{
+    font-size: 20px;
+    margin: 28px 0px 10px 20px;
+    
+}
+
+.seccion-contacto .cont-form-contacto form textarea{
+    font-size: 2em;
+    width: 90%;
+    
+}
+
+.seccion-contacto .cont-form-contacto form input[type="submit"]{
+    width: 40%;
+    margin-top: 50px;
+    padding: 10px;
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+
+
+/*---------------------------------------------------------------------------footer--------------------*/
+
+.pie-pagina{
+   padding: 0px;
+    height: 100vh;
+  
+}
+
+.pie-pagina .container-footer{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    }
+
+.pie-pagina .container-footer .info-footer{
+     display: flex;
+     flex-direction: row;
+     margin: 30px;
+     width: 90%;
+     justify-content: space-between;
+     padding: 10px;
+ }
+
+ 
+
+
+ .pie-pagina .container-footer .info-footer .texto{
+    padding: 15px;
+    margin-right: 40px;
+}
+
+.pie-pagina .container-footer .info-footer .texto h5{
+    padding: 15px;
+    font-size: 20px;
+}
+
+.pie-pagina .container-footer .info-footer .texto p{
+    font-size: 18px;
+}
+
+/*-----------------------------------------------------------------footer social----------------*/
+
+.pie-pagina .container-footer .info-footer .social{
+    padding: 10px;
+    width: 50%;
+
+}
+
+.social .fa-brands, .fa-solid{
+    margin: 0px 30px;
+    font-size: 60px;
+    
+}
+
+.pie-pagina .container-footer .plano-footer{
+    border: 2px solid white;
+   /* margin-top: 60px;
+    width: 60%;*/
+}
+
+
+
+
+
+}
+
+
+
+/*-------------------------------------------------------------------------------------768px-----------------*/
+/*-------------------------------------------------------------------------------------768px-----------------*/
+/*-------------------------------------------------------------------------------------768px-----------------*/
+
+@media screen and (max-width: 768px){
+
+/*-----------------------------------------------------------------header--------------------*/
+
+.contenedor-total .contenedor-menu .contenedor-logo .logotipo{
+    letter-spacing: 2px;
+    font-size: 27px;
+    
+}
+
+.contenedor-total .contenedor-menu .contenedor-nav a{
+    font-size: 15px;
+    margin-right: 10px;
+    letter-spacing: 1px;
+    padding: 8px;
+    
+  }
+
+   /*-----------------------------------------------------tamaño chakras----------------------*/
+
+   .neon-7{
+    width: 23px;
+    height: 23px;
+      
+}
+
+
+.neon-6{
+    width: 23px;
+    height: 23px;
+    
+}
+
+
+.neon-5{
+    width: 23px;
+    height: 23px;
+    
+}
+
+.neon-4{
+    width: 23px;
+    height: 23px;
+    
+}
+
+
+
+.neon-3{
+    width: 23px;
+    height: 23px;
+    
+}
+
+.neon-2{
+    width: 23px;
+    height: 23px;
+   
+}
+
+.neon-1{
+    width: 23px;
+    height: 23px;
+   
+}
+
+/*-----------------------------------------------------------------chakras bloqueados-----------------*/
+
+
+.cont-chakras-bloqueados{
+   width: 98%;
+    
+}
+
+/*-------------------------------------------BANNER FRASE 1-------------------------------------------------------------*/
+
+.banner-frase .contenido-banner-frase{
+    width: 94%;
+    padding-top: 40px;
+    line-height: 1.5;
+    font-size: 24px;
+        
+}
+
+/*---------------------------------------------------------------------quien soy------------------------------------*/
+
+.seccion-quienSoy{
+    width: 98%;
+    padding: 35px;
+}
+
+
+.seccion-quienSoy .cont-quiensoy p{
+   margin: 5px 0px;
+   font-size: 19px;
+   letter-spacing: 1.2px;
+  
+}
+
+/*---------------------------------------------------------------banner frase 2*/
+
+.banner-frase2 .contenido-banner-frase2{
+    width: 94%;
+    padding-top: 40px;
+    line-height: 1.5;
+    font-size: 24px;
+        
+}
+
+/*---------------------------------------------------------------------------footer--------------------*/
+
+.pie-pagina{
+    margin-top: 50px;
+    height: auto;
+ }
+
+}
+
+
+
+
+
+/*-------------------------------------------------------------------------------------576px-----------------*/
+/*-------------------------------------------------------------------------------------576px-----------------*/
+/*-------------------------------------------------------------------------------------576px-----------------*/
+
+@media screen and (max-width: 576px){
+
+    /*---------------------------------------------------------------header--------------------*/
+    .contenedor-total .contenedor-menu{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 10px 0 5px;
+        text-align: center;
+    }
+
+      /*----------------------------------------------portada-----------------*/
+      .contenedor-total .principal {
+        padding: 5px;
+    }
+ 
+    .contenedor-total .principal .titulo, .descripcion{
+        letter-spacing: 1px;
+        padding-bottom: 5px;
+        font-size: 15px;
+    }
+
+    /*-------------------------------------------BANNER FRASE 1-------------------------------------------------------------*/
+
+.banner-frase .contenido-banner-frase{
+    width: 90%;
+    font-size: 21px;
+        
+}
+
+   /*-------------------------------------------BANNER FRASE 2-------------------------------------------------------------*/
+
+   .banner-frase2 .contenido-banner-frase2{
+    width: 90%;
+    font-size: 21px;
+        
+}
+
+/*------------------------------------------------------------------------contacto----------------------------*/
+
+.cont-form-contacto{
+    width: 80%;
+    height: 500px;
+        
+}
+
+
+/*----------------------------------------------------------------------footer---------------------------------*/
+
+ 
+ .pie-pagina .container-footer{
+      padding: 0px;
+      width: 100%;
+      margin: auto;
+      display: flex;
+      flex-direction: column;
+     }
+ 
+ .pie-pagina .container-footer .info-footer{
+      margin-bottom: 30px;
+      width: 100%;
+      justify-content: center;
+      padding: 0px;
+  }
+ 
+  
+   
+  
+ .pie-pagina .container-footer .info-footer .texto h5{
+     padding: 10px;
+     
+ }
+ 
+ 
+ /*-----------------------------------------------------------------footer social----------------*/
+ 
+ .pie-pagina .container-footer .info-footer .social{
+     padding: 0px;
+     width: 30%;
+     margin-right: 40px;
+ 
+ }
+
+
+ 
+ .social .fa-brands, .fa-solid{
+     margin: 10px;
+     font-size: 50px;
+     
+ }
+ 
+
+}
+
+
+
+/*-------------------------------------------------------------------------------------320px-----------------*/
+/*-------------------------------------------------------------------------------------320px-----------------*/
+/*-------------------------------------------------------------------------------------320px-----------------*/
+
+@media screen and (max-width: 320px){
+
+/*------------------------------------------------------------------header---------------*/
+.contenedor-total .contenedor-menu .contenedor-logo .logotipo{
+    letter-spacing: 1px;
+    font-size: 25px;
+    line-height: 30px;
+}
+
+.contenedor-total .contenedor-menu .contenedor-nav{
+    margin: 15px auto;
+    text-align: center;
+}
+
+.contenedor-total .contenedor-menu .contenedor-nav a{
+    font-size: 15px;
+    margin-left: 17px;
+    letter-spacing: 1px;
+    padding: 8px;
+    
+  }
+
+  /*-------------------------------------------------------------------main------------------------*/
+
+  .subtítulos{
+    font-size: 21px;
+    padding: 10px;
+    letter-spacing: 2px;
+    
+}
+
+
+  .cont-chakras-bloqueados{
+    width: 100%;
+}
+  
+
+/*-------------------------------------------BANNER FRASE 1-------------------------------------------------------------*/
+
+    .banner-frase .contenido-banner-frase{
+        width: 96%;
+        font-size: 15px;
+        line-height: 25px;  
+        text-align: center; 
+    }
+
+    /*---------------------------------------------------------------------quien soy------------------------------------*/
+
+.seccion-quienSoy{
+    width: 100%;
+    padding: 10px;
+}
+
+
+.seccion-quienSoy .cont-quiensoy p{
+   font-size: 16px;
+   
+  
+}
+
+  /*-------------------------------------------BANNER FRASE 2-------------------------------------------------------------*/
+
+  .banner-frase2 .contenido-banner-frase2{
+    width: 96%;
+    font-size: 15px;
+    line-height: 25px;  
+    text-align: center; 
+}
+
+/*------------------------------------------------------------------------contacto----------------------------*/
+
+.cont-form-contacto{
+    width: 96%;
+    height: 500px;
+    padding: 10px;  
+}
+
+.seccion-contacto .cont-form-contacto form textarea{
+    height: 150px;
+    margin-bottom: 0px;
+}
+
+.seccion-contacto .cont-form-contacto form p{
+    font-size: 18px;
+      
+}
+
+.seccion-contacto .cont-form-contacto form input[type="submit"]{
+     margin-top: 30px;
+     padding: 5px;
+}
+
+
+
+/*----------------------------------------------------------------------footer---------------------------------*/
+
+.pie-pagina{
+    width: 100%;
+    margin: 70px auto 0px;
+    padding: 2px 1px;
+   
+  
+}
+
+.pie-pagina .container-footer{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+        
+}
+
+.pie-pagina .container-footer .info-footer{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.pie-pagina .container-footer .info-footer .texto{
+    padding: 2px;
+    width: 100%;
+    margin-right: 190px;
+}
+   
+.pie-pagina .container-footer .info-footer .social{
+    margin-top: 10px;
+    margin-right: 185px;
+    width: 100%;
+    padding: 5px;
+    
+
+}
+
+.social .fa-brands, .fa-solid{
+    margin: 0px 20px;
+    font-size: 40px;
+    
+}
+
+ 
+
+
+
+
+}
+

@@ -8,6 +8,7 @@
 }
 
 
+
 .cont-chakras-bloqueados{
     /*border: 2px dashed yellow;*/
     width: 90%;
@@ -223,6 +224,13 @@
     
 }
 
+.seccion-quienSoy .cont-quiensoy h2{
+    margin: 10px;
+    font-size: 22px;
+    letter-spacing: 2px;
+    color: rgb(31, 30, 30);
+}
+
 .seccion-quienSoy .cont-quiensoy p{
     margin: 15px 0px;
     line-height: 1.3;
@@ -259,7 +267,7 @@
 .seccion-contacto{
     /*border: 2px solid red;*/
     width: 100%;
-    height: 100vh;
+    height: auto;
     margin: auto;
 }
 
@@ -278,6 +286,8 @@
     border-radius: 5px;
     
 }
+
+
 .seccion-contacto .cont-form-contacto form{
     margin: auto;
     border-radius: 5px;
@@ -344,14 +354,14 @@
     max-width: 1200px;
     height: auto;
     margin: 70px auto 0px;
-    /*border: 2px solid yellow;*/
+    border: 2px solid yellow;
     padding: 40px 20px 30px;
     background-image: linear-gradient(#e4dcdc, #57808b, black, #4b194b);
   
 }
 
 .pie-pagina .container-footer{
-/* border: 2px solid red;*/
+ border: 2px solid red;
  display: flex;
  flex-wrap: wrap;
  justify-content: space-around;
@@ -359,7 +369,7 @@
 }
 
 .pie-pagina .container-footer .info-footer{
-   /* border: 2px solid green;*/
+    border: 2px solid green;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -381,7 +391,7 @@
 }
 
 .pie-pagina .container-footer .info-footer .social{
-    /*border: 2px solid black;*/
+    border: 2px solid black;
     width: 100%;
     padding: 35px;
     text-align: center;
