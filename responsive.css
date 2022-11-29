@@ -53,6 +53,188 @@
     
 }
 
+/*-------------------------------------------------------------------------------------1600px-----------------*/
+/*-------------------------------------------------------------------------------------1600px-----------------*/
+/*-------------------------------------------------------------------------------------1600px-----------------*/
+@media screen and (max-width: 1600px){
+    /*----------------------------------------------chakras-----------------*/
+    .contenedor-total .btn-7{
+        top: 33%;
+        
+      }
+
+      .contenedor-total .btn-6{
+        top: 38.2%;
+        
+      }
+
+      .contenedor-total .btn-5{
+        top: 45.2%;
+       
+      }
+    
+      .contenedor-total .btn-4{
+        top: 50.8%;
+       
+      }
+    
+      .contenedor-total .btn-3{
+        top: 57.2%;
+        
+      }
+    
+      .contenedor-total .btn-2{
+        top: 63.3%;
+        
+      }
+    
+       .contenedor-total .btn-1{
+        top: 69.4%;
+        
+       
+      }
+
+}
+
+/*-------------------------------------------------------------------------------------1500px-----------------*/
+/*-------------------------------------------------------------------------------------1500px-----------------*/
+/*-------------------------------------------------------------------------------------1500px-----------------*/
+@media screen and (max-width: 1500px){
+    /*----------------------------------------------chakras-----------------*/
+    .contenedor-total .btn-7{
+        top: 32%;
+        
+      }
+
+      .contenedor-total .btn-6{
+        top: 38%;
+        
+      }
+
+      .contenedor-total .btn-5{
+        top: 45%;
+       
+      }
+    
+      .contenedor-total .btn-4{
+        top: 50.8%;
+       
+      }
+    
+      .contenedor-total .btn-3{
+        top: 58%;
+        
+      }
+    
+      .contenedor-total .btn-2{
+        top: 64%;
+        
+      }
+    
+       .contenedor-total .btn-1{
+        top: 71%;
+        
+       
+      }
+
+      /*-----------------------------------------------------------portada--------------------------*/
+
+      .contenedor-total .principal .titulo, .descripcion{
+        letter-spacing: 2px;
+        padding-bottom: 5px;
+        font-size: 22px;
+    }
+
+}
+
+
+/*-------------------------------------------------------------------------------------1400px-----------------*/
+/*-------------------------------------------------------------------------------------1400px-----------------*/
+/*-------------------------------------------------------------------------------------1400px-----------------*/
+@media screen and (max-width: 1400px){
+    /*----------------------------------------------chakras-----------------*/
+    .contenedor-total .btn-7{
+        top: 30%;
+        
+      }
+
+      .contenedor-total .btn-6{
+        top: 37%;
+        
+      }
+
+      .contenedor-total .btn-5{
+        top: 44%;
+       
+      }
+    
+      .contenedor-total .btn-4{
+        top: 51%;
+       
+      }
+    
+      .contenedor-total .btn-3{
+        top: 58.3%;
+        
+      }
+    
+      .contenedor-total .btn-2{
+        top: 65%;
+        
+      }
+    
+       .contenedor-total .btn-1{
+        top: 72.4%;
+        
+       
+      }
+    }
+
+
+/*-------------------------------------------------------------------------------------1300px-----------------*/
+/*-------------------------------------------------------------------------------------1300px-----------------*/
+/*-------------------------------------------------------------------------------------1300px-----------------*/
+@media screen and (max-width: 1300px){
+    /*----------------------------------------------chakras-----------------*/
+    .contenedor-total .btn-7{
+        top: 29%;
+        
+      }
+
+      .contenedor-total .btn-6{
+        top: 36%;
+        
+      }
+
+      .contenedor-total .btn-5{
+        top: 44%;
+       
+      }
+    
+      .contenedor-total .btn-4{
+        top: 51.5%;
+       
+      }
+    
+      .contenedor-total .btn-3{
+        top: 59%;
+        
+      }
+    
+      .contenedor-total .btn-2{
+        top: 67%;
+        
+      }
+    
+       .contenedor-total .btn-1{
+        top: 74%;
+        
+       
+      }
+    }
+
+
+
 
 /*-------------------------------------------------------------------------------------1200px-----------------*/
 /*-------------------------------------------------------------------------------------1200px-----------------*/
@@ -74,17 +256,17 @@
 
      /*----------------------------------------------chakras-----------------*/
      .contenedor-total .btn-7{
-        top: 26%;
+        top: 26.3%;
         
       }
       
       .contenedor-total .btn-6{
-          top: 33%;
+          top: 35%;
           
         }
       
         .contenedor-total .btn-5{
-          top: 42.5%;
+          top: 43%;
           
         }
       
@@ -99,7 +281,7 @@
         }
       
         .contenedor-total .btn-2{
-          top: 69%;
+          top: 68%;
           
         }
       
@@ -108,6 +290,107 @@
           
          
         }
+
+}
+
+
+/*-------------------------------------------------------------------------------------1000px-----------------*/
+/*-------------------------------------------------------------------------------------1000px-----------------*/
+/*-------------------------------------------------------------------------------------1000px-----------------*/
+
+@media screen and (max-width: 1000px){
+
+
+    /*----------------------------------------------portada-----------------*/
+   .contenedor-total .principal .titulo, .descripcion{
+      
+       font-size: 18px;
+   }
+
+    /*----------------------------------------------chakras-----------------*/
+    .contenedor-total .btn-7{
+       top: 26.3%;
+       
+     }
+     
+     .contenedor-total .btn-6{
+         top: 35%;
+         
+       }
+     
+       .contenedor-total .btn-5{
+         top: 43%;
+         
+       }
+     
+       .contenedor-total .btn-4{
+        top: 51.2%;
+         
+       }
+     
+       .contenedor-total .btn-3{
+        top: 59.9%;
+        
+       }
+     
+       .contenedor-total .btn-2{
+         top: 68%;
+         
+       }
+     
+        .contenedor-total .btn-1{
+         top: 76%;
+         
+        
+       }
+
+/*-----------------------------------------------------tamaño chakras----------------------*/
+
+   .neon-7{
+    width: 23px;
+    height: 23px;
+      
+}
+
+
+.neon-6{
+    width: 23px;
+    height: 23px;
+    
+}
+
+
+.neon-5{
+    width: 23px;
+    height: 23px;
+    
+}
+
+.neon-4{
+    width: 23px;
+    height: 23px;
+    
+}
+
+
+
+.neon-3{
+    width: 23px;
+    height: 23px;
+    
+}
+
+.neon-2{
+    width: 23px;
+    height: 23px;
+   
+}
+
+.neon-1{
+    width: 23px;
+    height: 23px;
+   
+}
 
 }
 
@@ -162,7 +445,7 @@
 
 .banner-frase .contenido-banner-frase{
     width: 90%;
-    padding-top: 45px;
+    padding: 40px;
     line-height: 1.6;
     
         
@@ -188,7 +471,7 @@
 
 .banner-frase2 .contenido-banner-frase2{
     width: 90%;
-    padding-top: 45px;
+    padding: 40px;
     line-height: 1.6;
     
         
@@ -284,12 +567,60 @@
     width: 60%;*/
 }
 
-
-
-
-
 }
 
+/*-------------------------------------------------------------------------------------900px-----------------*/
+/*-------------------------------------------------------------------------------------900px-----------------*/
+/*-------------------------------------------------------------------------------------900px-----------------*/
+
+
+@media screen and (max-width: 900px){
+
+
+    /*----------------------------------------------portada-----------------*/
+   .contenedor-total .principal .titulo, .descripcion{
+      
+       font-size: 17px;
+   }
+
+    /*----------------------------------------------chakras-----------------*/
+    .contenedor-total .btn-7{
+       top: 27%;
+       
+     }
+     
+     .contenedor-total .btn-6{
+         top: 35%;
+         
+       }
+     
+       .contenedor-total .btn-5{
+         top: 43%;
+         
+       }
+     
+       .contenedor-total .btn-4{
+        top: 51%;
+         
+       }
+     
+       .contenedor-total .btn-3{
+        top: 58.7%;
+        
+       }
+     
+       .contenedor-total .btn-2{
+         top: 66%;
+         
+       }
+     
+        .contenedor-total .btn-1{
+         top: 73%;
+         
+        
+       }
+
+       
 
 
 /*-------------------------------------------------------------------------------------768px-----------------*/
@@ -314,53 +645,11 @@
     
   }
 
-   /*-----------------------------------------------------tamaño chakras----------------------*/
-
-   .neon-7{
-    width: 23px;
-    height: 23px;
+    /*----------------------------------------------portada-----------------*/
+    .contenedor-total .principal .titulo, .descripcion{
       
-}
-
-
-.neon-6{
-    width: 23px;
-    height: 23px;
-    
-}
-
-
-.neon-5{
-    width: 23px;
-    height: 23px;
-    
-}
-
-.neon-4{
-    width: 23px;
-    height: 23px;
-    
-}
-
-
-
-.neon-3{
-    width: 23px;
-    height: 23px;
-    
-}
-
-.neon-2{
-    width: 23px;
-    height: 23px;
-   
-}
-
-.neon-1{
-    width: 23px;
-    height: 23px;
-   
-}
+        font-size: 16px;
+    }
 
 /*-----------------------------------------------------------------chakras bloqueados-----------------*/
 
@@ -370,11 +659,97 @@
     
 }
 
+/*----------------------------------------------chakras-----------------*/
+.contenedor-total .btn-7{
+    top: 31%;
+    
+  }
+  
+  .contenedor-total .btn-6{
+      top: 37%;
+      
+    }
+  
+    .contenedor-total .btn-5{
+      top: 43%;
+      
+    }
+  
+    .contenedor-total .btn-4{
+     top: 50%;
+      
+    }
+  
+    .contenedor-total .btn-3{
+     top: 57%;
+     
+    }
+  
+    .contenedor-total .btn-2{
+      top: 63%;
+      
+    }
+  
+     .contenedor-total .btn-1{
+      top: 70%;
+      
+     
+    }
+
+    /*-----------------------------------------------------tamaño chakras----------------------*/
+
+   .neon-7{
+    width: 20px;
+    height: 20px;
+      
+}
+
+
+.neon-6{
+    width: 20px;
+    height: 20px;
+    
+}
+
+
+.neon-5{
+    width: 20px;
+    height: 20px;
+    
+}
+
+.neon-4{
+    width: 20px;
+    height: 20px;
+    
+}
+
+
+
+.neon-3{
+    width: 20px;
+    height: 20px;
+    
+}
+
+.neon-2{
+    width: 20px;
+    height: 20px;
+   
+}
+
+.neon-1{
+    width: 20px;
+    height: 20px;
+   
+}
+
+
 /*-------------------------------------------BANNER FRASE 1-------------------------------------------------------------*/
 
 .banner-frase .contenido-banner-frase{
     width: 94%;
-    padding-top: 40px;
+    padding: 20px;
     line-height: 1.5;
     font-size: 24px;
         
@@ -399,7 +774,7 @@
 
 .banner-frase2 .contenido-banner-frase2{
     width: 94%;
-    padding-top: 40px;
+    padding: 20px;
     line-height: 1.5;
     font-size: 24px;
         
@@ -411,6 +786,102 @@
     margin-top: 50px;
     height: auto;
  }
+
+}
+
+
+/*-------------------------------------------------------------------------------------600px-----------------*/
+/*-------------------------------------------------------------------------------------600px-----------------*/
+/*-------------------------------------------------------------------------------------600px-----------------*/
+
+@media screen and (max-width: 600px){
+
+    /*----------------------------------------------chakras-----------------*/
+.contenedor-total .btn-7{
+    top: 33%;
+    
+  }
+  
+  .contenedor-total .btn-6{
+      top: 38%;
+      
+    }
+  
+    .contenedor-total .btn-5{
+      top: 44%;
+      
+    }
+  
+    .contenedor-total .btn-4{
+     top: 50%;
+      
+    }
+  
+    .contenedor-total .btn-3{
+     top: 56%;
+     
+    }
+  
+    .contenedor-total .btn-2{
+      top: 62%;
+      
+    }
+  
+     .contenedor-total .btn-1{
+      top: 67%;
+      
+     
+    }
+
+    /*-----------------------------------------------------tamaño chakras----------------------*/
+
+   .neon-7{
+    width: 17px;
+    height: 17px;
+      
+}
+
+
+.neon-6{
+    width: 17px;
+    height: 17px;
+    
+}
+
+
+.neon-5{
+    width: 17px;
+    height: 17px;
+    
+}
+
+.neon-4{
+    width: 17px;
+    height: 17px;
+    
+}
+
+
+
+.neon-3{
+    width: 17px;
+    height: 17px;
+    
+}
+
+.neon-2{
+    width: 17px;
+    height: 17px;
+   
+}
+
+.neon-1{
+    width: 17px;
+    height: 17px;
+   
+}
+
+
 
 }
 
@@ -447,9 +918,10 @@
 
     /*-------------------------------------------BANNER FRASE 1-------------------------------------------------------------*/
 
-.banner-frase .contenido-banner-frase{
+    .banner-frase .contenido-banner-frase{
     width: 90%;
     font-size: 21px;
+    overflow: hidden;
         
 }
 
@@ -654,7 +1126,7 @@
    
 .pie-pagina .container-footer .info-footer .social{
     margin-top: 10px;
-    margin-right: 185px;
+    margin-right: 160px;
     width: 100%;
     padding: 5px;
     
@@ -668,9 +1140,9 @@
 }
 
  
-
-
-
-
 }
+
+
+
+
 

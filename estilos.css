@@ -102,7 +102,7 @@
 
 .banner-frase .contenido-banner-frase{
     width: 80%;
-    padding-top: 60px;
+    padding: 60px;
     color: #fff;
     margin: auto;
     display: flex;
@@ -110,7 +110,8 @@
     font-size: 27px;
     letter-spacing: 3px;
     font-family: 'Kalam', cursive;
-        
+    text-align: center; 
+    overflow: hidden;
 }
 
 
@@ -252,7 +253,7 @@
 
 .banner-frase2 .contenido-banner-frase2{
     width: 80%;
-    padding-top: 60px;
+    padding: 60px;
     color: #fff;
     margin: auto;
     display: flex;
@@ -260,6 +261,8 @@
     font-size: 27px;
     letter-spacing: 3px;
     font-family: 'Kalam', cursive; 
+    text-align: center; 
+    overflow: hidden;
 }
 
 /*------------------------------------------------------------------CONTACTO----------------------------------*/
@@ -354,14 +357,14 @@
     max-width: 1200px;
     height: auto;
     margin: 70px auto 0px;
-    /*border: 2px solid yellow;*/
+    border: 2px solid yellow;
     padding: 40px 20px 30px;
     background-image: linear-gradient(#e4dcdc, #57808b, black, #4b194b);
   
 }
 
 .pie-pagina .container-footer{
-/* border: 2px solid red;*/
+ border: 2px solid red;
  display: flex;
  flex-wrap: wrap;
  justify-content: space-around;
@@ -369,7 +372,7 @@
 }
 
 .pie-pagina .container-footer .info-footer{
-   /* border: 2px solid green;*/
+    border: 2px solid green;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -391,7 +394,7 @@
 }
 
 .pie-pagina .container-footer .info-footer .social{
-    /*border: 2px solid black;*/
+    border: 2px solid black;
     width: 100%;
     padding: 35px;
     text-align: center;
